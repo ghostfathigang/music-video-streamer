@@ -20,8 +20,9 @@ async def cbstart(_, query: CallbackQuery):
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
+🥲🥺 **Don't Forgot To Subscribe** [My YouTube Channel](https://youtube.com/channel/UCngLbDCJQq53mBEle0e7BwQ)
 
-🛠 [🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂](https://t.me/cl_me_logesh) **if you have any problem contact**
+🤥 [Mahsoom](https://t.me/Call_me_futurepilot) **if you have any problem contact**
 
 ❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
@@ -39,15 +40,15 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "SUBSCRIBE", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂", url="https://t.me/cl_me_logesh"
+                        "About Me", url="https://t.me/About_Mahsoom"
                     )
                 ],
             ]
@@ -67,6 +68,7 @@ async def cbguides(_, query: CallbackQuery):
 4.) **turn on the video chat first before start to play video.**
 5.) **all the command list you can see on » 📚 Commands button, find it on start home, tap the » Go Back button below.**
 
+🥲🥺 **Don't Forgot To Subscribe** [My YouTube Channel](https://youtube.com/channel/UCngLbDCJQq53mBEle0e7BwQ)
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
@@ -102,6 +104,7 @@ async def cbhelps(_, query: CallbackQuery):
 » /rmd - clean downloaded files (sudo only)
 » /leaveall - order userbot leave from all group (sudo only)
 
+🥲🥺 **Don't Forgot To Subscribe** [My YouTube Channel](https://youtube.com/channel/UCngLbDCJQq53mBEle0e7BwQ)
 ⚡ __Powered by {BOT_NAME} AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
