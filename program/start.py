@@ -58,7 +58,9 @@ async def start_(client: Client, message: Message):
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
-🛠 [🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂](https://t.me/cl_me_logesh) ** if you have any problems contact 💚**
+🥲🥺 **Don't Forgot To Subscribe** [My YouTube Channel](https://youtube.com/channel/UCngLbDCJQq53mBEle0e7BwQ)
+
+🤥 [Mahsoom](https://t.me/Call_me_futurepilot) ** if you have any problems contact 💚**
 
 ❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
@@ -69,24 +71,24 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🕊.⋆ Basic Guide༒۝꧂", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🕊.⋆Commands༒۝꧂", callback_data="cbcmds"),
-                    InlineKeyboardButton("🕊.⋆Owner༒۝꧂", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("Commands", callback_data="cbcmds"),
+                    InlineKeyboardButton("❤️ Owner", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🕊.⋆official Group༒۝꧂", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "SUBSCRIBE", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🕊.⋆official channel༒۝꧂", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
 
        
                     InlineKeyboardButton(
-                        "🕊.⋆source code༒۝꧂", url="https://github.com/LOGI-LAP/music-video-streamer"
+                        "About Me", url="https://t.me/About_Mahsoom"
                     )
                 ],
             ]
@@ -108,7 +110,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
